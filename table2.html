@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        table,tr,td,th{
+            border:2px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-wrap">
+        <table>
+            <tr>
+                 <th rowspan="3">DAY</th>
+                <th colspan="3">SEMINAR</th>
+            </tr>
+            <tr>
+                <!-- <th rowspan="3">DAY</th> -->
+                <th colspan="2">SCHEDULE</th>
+                <th rowspan="2">TOPIC</th>
+            </tr>
+            <tr>
+                <th>BEGIN</th>
+                <th>END</th>
+            </tr>
+            <tr>
+                <th rowspan="2">MONDAY</th>
+                <td rowspan="2">8:00AM</td>
+                <td rowspan="2">5:00AM</td>
+                <td>Introduction to XML</td>
+
+            </tr>
+            <tr>
+            
+                <td>Validity:DID and Relex NG</td>
+            </tr>
+            <tr>
+                <th rowspan="4">TUESDAY</th>
+                <td>8:00AM</td>
+                <td>11:00PM</td>
+                <td rowspan="2" style="padding: 6px;">X Path</td>
+            </tr>
+            <tr>
+                <td rowspan="2">11:00AM</td>
+                <td rowspan="2">2:00PM</td>
+                <!-- <td >XSL TRANSFORMATION</td> -->
+            </tr>
+            <tr>
+                <td rowspan="2">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>2:00PM</td>
+                <td>5:00PM</td>
+            </tr>
+            <tr>
+                <th>WEDNESDAY</th>
+                <td>8:00am</td>
+                <td>5:00pm</td>
+                <td>XSL fomating object</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
